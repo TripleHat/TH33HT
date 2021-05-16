@@ -160,7 +160,9 @@ if [[ $inf == "" ]]; then
 echo ""
 printf "\e[91m😑😑No blank Username in Social Network😑😑\e[0m"
 sleep 3
-clear; menu
+clear
+extra_banner
+choice
 else
 echo " "
 load
