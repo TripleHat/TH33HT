@@ -1,0 +1,5 @@
+requests
+argparse
+bs4
+beautifulsoup4
+
