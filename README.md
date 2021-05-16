@@ -15,3 +15,8 @@
 <p> --> git clone https://github.com/TripleHat/TH33HT.git</p>
 <p> --> cd TH33HT</p>
 <p> --> bash install.sh
+
+# ScreeShot
+
+<img src="https://github.com/TripleHat/TripleHat/blob/main/Screenshot_20210516-150051.png">
+<img src="https://github.com/TripleHat/TripleHat/blob/main/Screenshot_20210516-150247.png">
