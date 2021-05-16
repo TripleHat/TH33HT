@@ -181,28 +181,28 @@ choice
 fi
 }
 
-update() {
-echo -e "$green [!]Checking for Updates$blank"
-fuck=$(wget https://raw.githubusercontent.com/TripleHat/TH33HT/master/tools/update -q && grep -o "1" v1)
-if [[ $fuck == "1" ]]; then
-echo -e "$green [√]No update Found$blank"
-sleep 1
-rm v1
-else
-echo -e "$yellow [!]New Version Found$blank"
-rm v1
-echo " "
-read -p "Do you want to update (Y/n): " update
-case $update in
-Y | y)
-echo " "
-N | n)
-echo -e "$yellow Make sure to update, new features are added and issues are fixed$blank"
-read -p "press enter to continue"
-sleep 1 ;;
-esac
-fi
-}
+#update() {
+#echo -e "$green [!]Checking for Updates$blank"
+#fuck=$(wget https://raw.githubusercontent.com/TripleHat/TH33HT/master/tools/update -q && grep -o "1" v1)
+#if [[ $fuck == "1" ]]; then
+#echo -e "$green [√]No update Found$blank"
+#sleep 1
+#rm v1
+#else
+#echo -e "$yellow [!]New Version Found$blank"
+#rm v1
+#echo " "
+#read -p "Do you want to update (Y/n): " update
+#case $update in
+#Y | y)
+#echo " "
+#N | n)
+#echo -e "$yellow Make sure to update, new features are added and issues are fixed$blank"
+#read -p "press enter to continue"
+#sleep 1 ;;
+#esac
+#fi
+#}
 
 main() {
 clear
@@ -224,5 +224,5 @@ printf "\e[93m[\e[92m00\e[93m]\e[94m : \e[91mExit Tool\e[0m"
 echo ""
 choice
 }
-update
+
 main
