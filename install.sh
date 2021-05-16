@@ -17,7 +17,7 @@ clear
 printf "${blue}\n[*] Checking package dependencies...${reset}\n"
     apt update -y &> /dev/null
 
-for i in curl wget toilet ruby python python3 ; do
+for i in curl neofetch wget toilet ruby python python3 ; do
         if [ -e $PREFIX/bin/$i ]; then
             echo -e "$light_cyan  $i is OK"
 sleep 1
