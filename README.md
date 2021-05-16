@@ -16,6 +16,12 @@
 <p> --> cd TH33HT</p>
 <p> --> bash install.sh
 
+# About
+
+<p><strong> For any issue/problem text me on:-</strong></p>
+<p><a href="https://instagram.com/wh0ami_1">Instagram</a></p>
+<p><a href="https://t.me/XY_333">Telegram</a></p>
+
 # ScreeShot
 
 <img src="https://github.com/TripleHat/TripleHat/blob/main/Screenshot_20210516-150051.png">
