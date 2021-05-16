@@ -87,7 +87,7 @@ printf "\e[1;91m [!] Enter Valid Pic Name with Extension!\e[0m"
 printf "\n"
 background
 else
-cd $EXTERNAL_STORAGE/TH3HT/
+cd $EXTERNAL_STORAGE/TH33HT/
 url
 if [[ -e $name.png ]]; then
 printf "\e[92m[√]:Image saved as \e[96m$name.png\e[0m"
