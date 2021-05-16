@@ -182,7 +182,7 @@ fi
 
 update() {
 echo -e "$green [!]Checking for Updates$blank"
-fuck=$(wget https://raw.githubusercontent.com/TripleHat/phonesploit/master/v1 -q && grep -o "1" v1)
+fuck=$(wget https://raw.githubusercontent.com/TripleHat/TH33HT/master/tools/update -q && grep -o "1" v1)
 if [[ $fuck == "1" ]]; then
 echo -e "$green [√]No update Found$blank"
 sleep 1
@@ -194,8 +194,7 @@ echo " "
 read -p "Do you want to update (Y/n): " update
 case $update in
 Y | y)
-cd $HOME; mkdir .termuxAdb; cd .termuxAdb;
-wget https://raw.githubusercontent.com/TripleHat/phonesploit/main/setup.sh -q && chmod +x setup.sh && bash setup.sh ;;
+echo " "
 N | n)
 echo -e "$yellow Make sure to update, new features are added and issues are fixed$blank"
 read -p "press enter to continue"
@@ -224,4 +223,5 @@ printf "\e[93m[\e[92m00\e[93m]\e[94m : \e[91mExit Tool\e[0m"
 echo ""
 choice
 }
+update
 main
