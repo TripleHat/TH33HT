@@ -15,7 +15,7 @@ light_cyan='\033[1;96m'
 reset='\033[0m'
 clear
 printf "${blue}\n[*] Checking package dependencies...${reset}\n"
-#    apt update -y &> /dev/null
+    apt update -y &> /dev/null
 
 for i in curl wget toilet ruby python python3 ; do
         if [ -e $PREFIX/bin/$i ]; then
@@ -29,10 +29,10 @@ sleep 1
             }
         fi
     done
-#    apt upgrade -y
+    apt upgrade -y
 
-#gem install lolcat
-#pip install -r triplehat.txt
+gem install lolcat
+pip install -r triplehat.txt
 toilet -f future Use bash THT.sh 
 toilet -f future To start This Tool
 sleep 3
