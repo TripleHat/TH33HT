@@ -162,6 +162,7 @@ printf "\e[91m😑😑No blank Username in Social Network😑😑\e[0m"
 sleep 3
 clear; menu
 else
+echo " "
 load
 python3 tools/social.py -i $inf
 extra_banner
